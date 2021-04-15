@@ -53,7 +53,7 @@ namespace SimpleCRUDOperationMVC
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Personel}/{action=Index}/{id?}");
             });
         }
     }
